@@ -49,7 +49,7 @@ export function WhyBams() {
           {/* Devise Callout */}
           <div className="p-4 sm:p-5 bg-blue-50/70 border border-blue-200 rounded-2xl space-y-1">
             <p className="text-xs font-bold text-blue-900 leading-relaxed">
-              « Bénin Assistance Multi Services (BAMS) : entreprise de consulting et de gestion de solutions. Un seul contact. Plusieurs solutions. »
+              « Bénin Assistance Multi Services (BAMS) : conciergerie, facility management et gestion de solutions. Un seul contact. Plusieurs solutions. »
             </p>
             <p className="text-[11px] text-blue-700 font-semibold">
               Devise officielle : <strong>Le temps, l&apos;énergie et le confort</strong>

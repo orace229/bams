@@ -5,7 +5,7 @@ import { Headphones, Clock, ShieldCheck } from "lucide-react";
 
 export const metadata = {
   title: "Déposer une Demande ou Diagnostic — BAMS Bénin",
-  description: "Exprimez votre besoin ou demandez un diagnostic Facility Management, Consulting ou Événementiel. Analyse et prise en charge par notre Call Center sous 30 minutes.",
+  description: "Exprimez votre besoin ou demandez un diagnostic Facility Management, Conciergerie & Assistance ou Événementiel. Analyse et prise en charge par notre Call Center sous 30 minutes.",
 };
 
 export default async function DemandePage({

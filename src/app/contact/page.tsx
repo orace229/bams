@@ -26,7 +26,7 @@ export default function ContactPage() {
           Contact &amp; Call Center Dédié
         </h1>
         <p className="text-base text-slate-600 leading-relaxed">
-          BAMS : entreprise de consulting et de gestion de solutions. « Votre besoin, notre mission. » Contactez-nous au 01 41 26 33 72 pour demander votre diagnostic ou confier vos projets.
+          BAMS : conciergerie, facility management et gestion de solutions. « Votre besoin, notre mission. » Contactez-nous au 01 41 26 33 72 pour demander votre diagnostic ou confier vos projets.
         </p>
       </div>
 

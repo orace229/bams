@@ -12,7 +12,7 @@ import {
   MessageSquare, 
   ArrowRight, 
   ArrowLeft, 
-  Briefcase, 
+  Sparkles, 
   Building2, 
   Calendar, 
   AlertCircle
@@ -37,7 +37,7 @@ export function MultiStepIntakeForm({ initialCategory }: MultiStepIntakeFormProp
   } = useForm<IntakeFormData>({
     resolver: zodResolver(intakeSchema),
     defaultValues: {
-      category: (initialCategory === "conciergerie" ? "facility_management" : initialCategory) || "facility_management",
+      category: (initialCategory === "consulting" ? "conciergerie" : initialCategory) || "facility_management",
       urgency: "standard",
       location: "cotonou",
       preferred_contact: "whatsapp",
@@ -46,7 +46,7 @@ export function MultiStepIntakeForm({ initialCategory }: MultiStepIntakeFormProp
 
   useEffect(() => {
     if (initialCategory) {
-      const normalized = initialCategory === "conciergerie" ? "facility_management" : initialCategory;
+      const normalized = initialCategory === "consulting" ? "conciergerie" : initialCategory;
       setValue("category", normalized);
     }
   }, [initialCategory, setValue]);
@@ -90,10 +90,10 @@ export function MultiStepIntakeForm({ initialCategory }: MultiStepIntakeFormProp
 
   const getCategoryLabel = (cat: string) => {
     switch (cat) {
-      case "consulting": return "Consulting & Assistance";
-      case "facility_management":
-      case "conciergerie": return "Facility Management BAMS (Maison, bureau, immeuble)";
-      case "evenementiel": return "Planification Événementielle";
+      case "conciergerie":
+      case "consulting": return "1. Conciergerie & Assistance";
+      case "facility_management": return "2. Facility Management BAMS (Maison, bureau, immeuble)";
+      case "evenementiel": return "3. Planification Événementielle";
       default: return "Sur-Mesure";
     }
   };
@@ -220,7 +220,7 @@ export function MultiStepIntakeForm({ initialCategory }: MultiStepIntakeFormProp
                   </label>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
                     {[
-                      { id: "consulting", title: "1. Consulting & Assistance", icon: <Briefcase className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" /> },
+                      { id: "conciergerie", title: "1. Conciergerie & Assistance", icon: <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" /> },
                       { id: "facility_management", title: "2. Facility Management BAMS", icon: <Building2 className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" /> },
                       { id: "evenementiel", title: "3. Planification Événementielle", icon: <Calendar className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" /> },
                     ].map((item) => (

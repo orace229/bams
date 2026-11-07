@@ -69,7 +69,7 @@ export default function CommentCaMarchePage() {
             </h2>
           </div>
           <p className="text-sm text-slate-600 leading-relaxed">
-            Vous arrivez sur la plateforme ou contactez directement notre Call Center au <strong>{BAMS_INFO.phoneDisplay}</strong>. Vous formulez votre demande en sélectionnant l&apos;offre concernée (Consulting &amp; Assistance, Facility Management BAMS ou Planification Événementielle), le niveau d&apos;urgence et votre localisation.
+            Vous arrivez sur la plateforme ou contactez directement notre Call Center au <strong>{BAMS_INFO.phoneDisplay}</strong>. Vous formulez votre demande en sélectionnant l&apos;offre concernée (Conciergerie &amp; Assistance, Facility Management BAMS ou Planification Événementielle), le niveau d&apos;urgence et votre localisation.
           </p>
           <div className="p-4 bg-white border border-slate-200 rounded-2xl text-xs text-slate-700">
             <strong>Résultat immédiat :</strong> Vous recevez un numéro de dossier unique (ex: <code>REF: BAMS-2026-XXXX</code>) confirmant la prise en charge immédiate.

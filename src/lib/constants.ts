@@ -3,7 +3,7 @@ import { OfferDetail } from "./types";
 export const BAMS_INFO = {
   name: "Bénin Assistance Multi Services",
   shortName: "BAMS",
-  companyType: "Entreprise de consulting et de gestion de solutions",
+  companyType: "Conciergerie, facility management et gestion de solutions",
   tagline: "Un seul contact. Plusieurs solutions.",
   devise: "Le temps, l'énergie et le confort",
   phone: "+229 01 41 26 33 72",
@@ -159,27 +159,27 @@ export const FACILITY_MANAGEMENT_DATA = {
 
 export const OFFERS_DATA: OfferDetail[] = [
   {
-    id: "consulting",
-    title: "1. Consulting & Assistance",
-    subtitle: "Conseil stratégique, démarches administratives (APIEx) et relais opérationnel au Bénin.",
-    iconName: "Briefcase",
-    badge: "Stratégie & Démarches",
+    id: "conciergerie",
+    title: "1. Conciergerie & Assistance",
+    subtitle: "Intendance personnalisée, démarches administratives, logistique du quotidien et relais de confiance au Bénin.",
+    iconName: "Sparkles",
+    badge: "Intendance & Démarches",
     color: "from-blue-600 to-indigo-700",
     subServices: [
       {
-        title: "Assistance Administrative & Juridique",
-        description: "Accompagnement dans les formalités d'entreprise (APIEx), légalisations et démarches foncières au Bénin.",
-        features: ["Immatriculation d'entreprise (APIEx/RCCM/IFU)", "Démarches notariales & foncières", "Suivi administratif sur place"]
+        title: "Démarches Administratives & Formalités Locales",
+        description: "Prise en charge de vos démarches administratives, légalisations, formalités foncières, immatriculations (APIEx) et représentations au Bénin.",
+        features: ["Formalités administratives & notariales", "Démarches foncières & immatriculation", "Suivi et dépôt de dossiers sur place"]
       },
       {
-        title: "Conseil en Développement d'Affaires",
-        description: "Études de terrain, recherche d'opportunités d'investissement et qualification de partenaires locaux fiables.",
-        features: ["Étude d'opportunité locale", "Validation de partenaires", "Négociation & Représentation"]
+        title: "Conciergerie Privée & Intendance du Quotidien",
+        description: "Gestion de vos courses, réservations, intendance, accueil séjour, livraisons sécurisées et assistance personnalisée pour vous faire gagner du temps.",
+        features: ["Intendance & logistique de proximité", "Accueil séjour & réservations", "Services sur-mesure pour particuliers & familles"]
       },
       {
-        title: "Relais Diaspora & Investisseurs",
-        description: "Vos yeux et vos bras sur le terrain si vous résidez à l'étranger ou manquez de temps.",
-        features: ["Inspection de projets", "Vérifications administratives", "Reporting photo & vidéo détaillé"]
+        title: "Relais Diaspora & Représentation de Confiance",
+        description: "Vos yeux et vos bras de confiance au Bénin : suivi de vos affaires, inspection de projets, courses urgentes et reporting transparent.",
+        features: ["Inspection et visites sur le terrain", "Reporting régulier (photos/vidéos)", "Représentation auprès des organismes locaux"]
       }
     ]
   },

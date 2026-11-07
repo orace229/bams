@@ -37,9 +37,9 @@ export function Hero() {
               <span className="text-blue-600">Plusieurs solutions</span> pour votre environnement.
             </h1>
 
-            {/* Subtitle with Facility Management & consulting context */}
+            {/* Subtitle with Conciergerie, Facility Management & Événementiel */}
             <p className="text-sm sm:text-base lg:text-lg text-slate-600 max-w-2xl font-normal leading-relaxed">
-              Le temps est devenu un luxe. Nous vous aidons à le retrouver. Que ce soit du <strong className="text-blue-600 font-bold">Facility Management BAMS</strong> (gestion de maison, bureau ou immeuble), du <strong className="text-slate-900 font-bold">Consulting</strong> ou de la <strong className="text-slate-900 font-bold">Planification Événementielle</strong>, BAMS prend soin de votre cadre au quotidien.
+              Le temps est devenu un luxe. Nous vous aidons à le retrouver. Que ce soit de la <strong className="text-slate-900 font-bold">Conciergerie &amp; Assistance</strong>, du <strong className="text-blue-600 font-bold">Facility Management BAMS</strong> (gestion de votre maison, bureau ou immeuble) ou de la <strong className="text-slate-900 font-bold">Planification Événementielle</strong>, BAMS prend soin de votre cadre au quotidien.
             </p>
 
             {/* Call Center Info Bar */}
@@ -152,7 +152,7 @@ export function Hero() {
                 {/* Bottom Overlay Info on Main Image */}
                 <div className="absolute bottom-4 left-4 right-4 text-white space-y-1">
                   <span className="text-[10px] uppercase font-bold tracking-widest text-blue-300">
-                    Facility Management &amp; Consulting
+                    Conciergerie, Facility Management &amp; Événementiel
                   </span>
                   <p className="text-sm sm:text-base font-black leading-snug">
                     « Vous vivez. Vous travaillez. Nous nous occupons de votre environnement. »

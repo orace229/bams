@@ -6,9 +6,9 @@ import { FloatingCallButton } from "@/components/layout/floating-call-button";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bams.bj"),
-  title: "BAMS — Bénin Assistance Multi Services | Facility Management, Consulting & Événementiel",
-  description: "Bénin Assistance Multi Services (BAMS) : entreprise de consulting et de gestion de solutions. Consulting & Assistance, Facility Management BAMS (maison, bureau, immeuble), et Planification Événementielle. Call Center Dédié 24/7 (01 41 26 33 72).",
-  keywords: ["Bénin", "BAMS", "Facility Management Bénin", "Gestion maison Bénin", "Gestion immeuble", "Consulting Cotonou", "Événementiel Bénin", "Diaspora Bénin", "Call Center Bénin"],
+  title: "BAMS — Bénin Assistance Multi Services | Conciergerie, Facility Management & Événementiel",
+  description: "Bénin Assistance Multi Services (BAMS) : conciergerie et gestion de solutions. Conciergerie & Assistance, Facility Management BAMS (maison, bureau, immeuble), et Planification Événementielle. Le temps, l'énergie et le confort. Call Center Dédié (01 41 26 33 72).",
+  keywords: ["Bénin", "BAMS", "Conciergerie Bénin", "Facility Management Bénin", "Gestion maison Bénin", "Gestion immeuble", "Assistance Cotonou", "Événementiel Bénin", "Diaspora Bénin", "Call Center Bénin"],
   icons: {
     icon: "/bams-logo.png",
     shortcut: "/bams-logo.png",

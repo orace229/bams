@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Building2, Home, Calendar, CheckCircle2, ArrowRight } from "lucide-react";
+import { Building2, Home, Calendar, CheckCircle2, ArrowRight, Sparkles } from "lucide-react";
 
 export function UseCases() {
   const cases = [
@@ -17,15 +17,15 @@ export function UseCases() {
       cta: "Demander un diagnostic"
     },
     {
-      icon: <Building2 className="w-5 h-5 text-blue-600" />,
-      tag: "Entreprises & Investisseurs",
-      image: "/images/consulting_executive_homme.jpeg",
-      imageAlt: "Consultant BAMS analysant des dossiers et contrats juridiques en salle de réunion",
-      title: "Consulting & Assistance : Implantation APIEx & Affaires",
-      problem: "Lenteurs des démarches d'immatriculation, de conformité fiscale ou besoin de déléguer la gestion de ses bureaux à un interlocuteur unique.",
-      solution: "Nos consultants prennent en charge la création d'entreprise, les autorisations et supervisent les services généraux.",
-      category: "consulting",
-      cta: "Confier mes démarches"
+      icon: <Sparkles className="w-5 h-5 text-blue-600" />,
+      tag: "Particuliers & Diaspora",
+      image: "/images/conciergerie_assistance.jpeg",
+      imageAlt: "Conciergerie et Assistance BAMS - Intendance, livraisons et démarches au Bénin",
+      title: "Conciergerie & Assistance : Intendance & Démarches sur place",
+      problem: "Besoin d'un relais de confiance au Bénin pour gérer des démarches administratives, des livraisons ou une intendance du quotidien sans stress.",
+      solution: "BAMS prend en charge vos démarches, formalités, livraisons et intendance avec compte-rendu régulier. Un seul contact.",
+      category: "conciergerie",
+      cta: "Demander une assistance"
     },
     {
       icon: <Calendar className="w-5 h-5 text-blue-600" />,

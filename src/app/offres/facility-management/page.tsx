@@ -377,7 +377,7 @@ export default function FacilityManagementPage() {
             {FACILITY_MANAGEMENT_DATA.ctaDiagnostic}
           </p>
           <p className="text-xs sm:text-sm text-slate-400">
-            Bénin Assistance Multi Services (BAMS) : entreprise de consulting et de gestion de solutions. Un seul contact. Plusieurs solutions.
+            Bénin Assistance Multi Services (BAMS) : conciergerie, facility management et gestion de solutions. Un seul contact. Plusieurs solutions.
           </p>
         </div>
 

@@ -5,21 +5,22 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata = {
   title: "Nos Offres — BAMS | Bénin Assistance Multi Services",
-  description: "Découvrez les 3 grands domaines d'intervention de BAMS au Bénin : Consulting, Facility Management BAMS, et Planification Événementielle.",
+  description: "Découvrez les 3 grands domaines d'intervention de BAMS au Bénin : Conciergerie & Assistance, Facility Management BAMS, et Planification Événementielle.",
 };
 
 export default function OffresPage() {
   const getOfferSlug = (id: string) => {
     if (id === "facility_management") return "facility-management";
+    if (id === "conciergerie") return "conciergerie";
     return id;
   };
 
   const getOfferCover = (id: string) => {
     switch (id) {
-      case "consulting": return "/images/consulting_executive_femme.jpeg";
+      case "conciergerie": return "/images/conciergerie_assistance.jpeg";
       case "facility_management": return "/images/facility_management_hero.jpeg";
       case "evenementiel": return "/images/planification_event.jpeg";
-      default: return "/images/facility_management_hero.jpeg";
+      default: return "/images/conciergerie_assistance.jpeg";
     }
   };
 
@@ -35,7 +36,7 @@ export default function OffresPage() {
           Nos 3 Grandes Offres de Services
         </h1>
         <p className="text-base text-slate-600 leading-relaxed">
-          Bénin Assistance Multi Services (BAMS) : entreprise de consulting et de gestion de solutions. Un guichet unique au Bénin pour piloter vos projets administratifs, votre environnement de vie/travail et vos événements.
+          Bénin Assistance Multi Services (BAMS) : conciergerie, facility management et gestion de solutions. Un guichet unique au Bénin pour piloter vos démarches, votre environnement de vie/travail et vos événements.
         </p>
       </div>
 

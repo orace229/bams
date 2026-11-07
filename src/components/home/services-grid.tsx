@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { OFFERS_DATA } from "@/lib/constants";
 import { OfferCategory } from "@/lib/types";
-import { Briefcase, Building2, Calendar, CheckCircle, ArrowRight, ShieldCheck, Wrench, Building } from "lucide-react";
+import { Briefcase, Building2, Calendar, CheckCircle, ArrowRight, ShieldCheck, Wrench, Building, Sparkles } from "lucide-react";
 
 export function ServicesGrid() {
   const [activeTab, setActiveTab] = useState<OfferCategory>("facility_management");
@@ -15,7 +15,7 @@ export function ServicesGrid() {
 
   const getIcon = (id: string) => {
     switch (id) {
-      case "consulting": return <Briefcase className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 shrink-0" />;
+      case "conciergerie": return <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 shrink-0" />;
       case "facility_management": return <Building2 className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 shrink-0" />;
       case "evenementiel": return <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 shrink-0" />;
       default: return <Briefcase className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 shrink-0" />;
@@ -24,6 +24,7 @@ export function ServicesGrid() {
 
   const getOfferSlug = (id: string) => {
     if (id === "facility_management") return "facility-management";
+    if (id === "conciergerie") return "conciergerie";
     return id;
   };
 
@@ -50,13 +51,13 @@ export function ServicesGrid() {
             aspect: "aspect-[4/3]",
           };
         }
-      case "consulting":
+      case "conciergerie":
         return {
-          src: "/images/consulting_executive_femme.jpeg",
-          alt: "Consultante exécutive BAMS supervisant les démarches APIEx et juridiques",
-          tag: "Affaires & Formalités au Bénin",
-          title: "Accompagnement Stratégique & Implantation",
-          caption: "Création d'entreprise (APIEx, IFU), conformité fiscale, représentation d'intérêts et relais pour la diaspora.",
+          src: "/images/conciergerie_assistance.jpeg",
+          alt: "Conciergerie et Assistance BAMS - Intendance et livraisons à domicile",
+          tag: "Intendance & Services du Quotidien",
+          title: "Conciergerie Privée & Démarches au Bénin",
+          caption: "Prise en charge de vos démarches administratives, intendance, livraisons sécurisées, accueil et relais diaspora de confiance.",
           aspect: "aspect-[4/3]",
         };
       case "evenementiel":

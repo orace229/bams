@@ -95,11 +95,11 @@ export function Header() {
             {offersDropdownOpen && (
               <div className="absolute top-full left-0 w-64 bg-white border border-slate-200 rounded-2xl shadow-xl py-2 mt-2 z-50">
                 <Link
-                  href="/offres/consulting"
+                  href="/offres/conciergerie"
                   onClick={() => setOffersDropdownOpen(false)}
                   className="block px-4 py-2.5 text-xs font-semibold text-slate-800 hover:bg-blue-50 hover:text-blue-600"
                 >
-                  💼 1. Consulting &amp; Assistance
+                  ✨ 1. Conciergerie &amp; Assistance
                 </Link>
                 <Link
                   href="/offres/facility-management"
@@ -185,11 +185,11 @@ export function Header() {
             <div className="py-2 px-3 bg-slate-50 rounded-xl space-y-2">
               <span className="text-[11px] font-black uppercase tracking-wider text-slate-400 block">Nos 3 Grandes Offres</span>
               <Link
-                href="/offres/consulting"
+                href="/offres/conciergerie"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block py-1.5 text-xs text-slate-700 hover:text-blue-600 font-semibold"
               >
-                💼 1. Consulting &amp; Assistance
+                ✨ 1. Conciergerie &amp; Assistance
               </Link>
               <Link
                 href="/offres/facility-management"

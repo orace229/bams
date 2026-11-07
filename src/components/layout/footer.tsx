@@ -31,7 +31,7 @@ export function Footer() {
           </div>
           
           <p className="text-slate-600 leading-relaxed max-w-sm">
-            BAMS : entreprise de consulting et de gestion de solutions au Bénin. Nous prenons en charge vos démarches, la gestion complète de vos espaces (Facility Management) et vos événements via notre Call Center dédié.
+            BAMS : conciergerie, facility management et gestion de solutions au Bénin. Nous prenons en charge votre intendance, vos démarches, la gestion complète de vos espaces (Facility Management) et vos événements. « Le temps, l&apos;énergie et le confort. »
           </p>
 
           <div className="flex items-center space-x-2 text-blue-700 font-bold">
@@ -44,7 +44,7 @@ export function Footer() {
         <div className="space-y-3">
           <h4 className="text-sm font-black text-slate-900 uppercase tracking-wider">Nos Piliers</h4>
           <ul className="space-y-2 text-slate-600 font-medium">
-            <li><Link href="/offres/consulting" className="hover:text-blue-600 transition-colors">1. Consulting &amp; Assistance</Link></li>
+            <li><Link href="/offres/conciergerie" className="hover:text-blue-600 transition-colors">1. Conciergerie &amp; Assistance</Link></li>
             <li><Link href="/offres/facility-management" className="hover:text-blue-600 transition-colors">2. Facility Management BAMS</Link></li>
             <li><Link href="/offres/evenementiel" className="hover:text-blue-600 transition-colors">3. Planification Événementielle</Link></li>
             <li><Link href="/offres" className="hover:text-blue-600 transition-colors font-bold text-blue-600">Toutes les offres ➔</Link></li>
